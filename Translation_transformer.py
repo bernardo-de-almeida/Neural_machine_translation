@@ -1,6 +1,5 @@
 
 ## run as: 
-# cd /groups/stark/almeida/DeepLearning_practice/Neural_machine_translation/
 # my_bsub_gridengine -P g -G "gpu:1" -m 15 -T '2-00:00:00' -o log_training -n Training "python ./Translation_transformer.py"
 
 import os
