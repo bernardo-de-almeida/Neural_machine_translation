@@ -162,7 +162,7 @@ history = transformer.fit(train_batches,
                           callbacks=[model_checkpoint_callback])
 
 # Save model
-model.save('Model_translator_final.h5')
+transformer.save('Model_translator_final.h5')
 # Save history
 import numpy as np
 np.save('Model_translator_final_history.npy',history.history)
